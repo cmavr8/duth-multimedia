@@ -1,0 +1,54 @@
+﻿Build started 14/05/2011 02:52:25.
+     1>Project "C:\Users\Apo\Documents\My Dropbox\DUTh\5o etos\9o e3amhno\multimedia\Projects\CamCalib 110514 - Copy\CamCalib\CamCalib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\CamCalib.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\CamCalib.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\CamCalib.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp CamCalib.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         CamCalib.cpp
+         Generating Code...
+     1>c:\opencv2.1\include\opencv\cxoperations.hpp(81): warning C4793: '`anonymous namespace'::CV_XADD' : function compiled as native :
+         	Inline native assembly not supported in managed code
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Apo\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       CoreResGen:
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile Form1.resX,Release\CamCalib.Form1.resources
+         Processing resource file "Form1.resX" into "Release\CamCalib.Form1.resources".
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\app.res" app.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Apo\Documents\My Dropbox\DUTh\5o etos\9o e3amhno\multimedia\Projects\CamCalib 110514 - Copy\Release\CamCalib.exe" /INCREMENTAL:NO /NOLOGO cv210.lib cxcore210.lib highgui210.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Release\CamCalib.Form1.resources /MANIFEST /ManifestFile:"Release\CamCalib.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Apo\Documents\My Dropbox\DUTh\5o etos\9o e3amhno\multimedia\Projects\CamCalib 110514 - Copy\Release\CamCalib.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\app.res
+         Release\AssemblyInfo.obj
+         Release\CamCalib.obj
+         Release\stdafx.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         C:\OpenCV2.1\lib\cv210.lib
+         C:\OpenCV2.1\lib\cv210d.lib
+         C:\OpenCV2.1\lib\cvaux210.lib
+         C:\OpenCV2.1\lib\cvaux210d.lib
+         C:\OpenCV2.1\lib\cxcore210.lib
+         C:\OpenCV2.1\lib\cxcore210d.lib
+         C:\OpenCV2.1\lib\cxts210.lib
+         C:\OpenCV2.1\lib\highgui210.lib
+         C:\OpenCV2.1\lib\highgui210d.lib
+         C:\OpenCV2.1\lib\ml210.lib
+         C:\OpenCV2.1\lib\ml210d.lib
+         C:\OpenCV2.1\lib\opencv_ffmpeg210.lib
+         C:\OpenCV2.1\lib\opencv_ffmpeg210d.lib
+     1>CamCalib.obj : warning LNK4248: unresolved typeref token (01000038) for 'CvCapture'; image may not run
+         CamCalib.vcxproj -> C:\Users\Apo\Documents\My Dropbox\DUTh\5o etos\9o e3amhno\multimedia\Projects\CamCalib 110514 - Copy\Release\CamCalib.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Apo\Documents\My Dropbox\DUTh\5o etos\9o e3amhno\multimedia\Projects\CamCalib 110514 - Copy\Release\CamCalib.exe;#1" /manifest Release\CamCalib.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\CamCalib.unsuccessfulbuild".
+         Touching "Release\CamCalib.lastbuildstate".
+     1>Done Building Project "C:\Users\Apo\Documents\My Dropbox\DUTh\5o etos\9o e3amhno\multimedia\Projects\CamCalib 110514 - Copy\CamCalib\CamCalib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.57
